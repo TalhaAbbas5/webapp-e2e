@@ -33,4 +33,4 @@ Werkzeug==3.1.4
 wheel==0.41.3
 Flask==3.1.2
 pytest==9.0.1
-pytest-html==4.5.0
+pytest-html==4.1.1
