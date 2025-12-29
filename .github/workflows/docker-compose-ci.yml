@@ -19,7 +19,7 @@ jobs:
 
       - name: Build and run docker-compose
         run: |
-          docker-compose -f docker-compose.yml up -d
+          docker compose -f docker-compose.yml up -d
           sleep 10
           curl -f http://localhost:5000/health
           docker-compose down
